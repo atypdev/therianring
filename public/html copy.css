@@ -1,0 +1,117 @@
+* {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+:root {
+    --dark: rgb(0,0,100);
+    --light: rgb(170, 170, 170);
+    --accent: #b970ca;
+    --accent2: #7670ca;
+    --dark2: maroon;
+    --dark3: darkgreen;
+}
+
+body {
+    background-color: var(--dark);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--dark);
+    padding-top: 0px;
+}
+
+#center {
+    width: 85vw;
+    background-color: var(--light);
+    margin: auto;
+    text-align: center;
+    /*border-right: 2px outset var(--accent);
+    border-left: 2px outset var(--accent);
+    border-bottom: 2px outset var(--accent);*/
+}
+
+#logo {
+    margin: auto;
+    text-align: center;
+    background-color: var(--dark);
+    /*border-right: 2px outset var(--accent);
+    border-left: 2px outset var(--accent);
+    border-top: 2px outset var(--accent);*/
+    width: 85vw;
+}
+
+#directory {
+    text-align: center; 
+    color: var(--light);
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark2);
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.member a:visited {
+    color: var(--dark);
+}
+
+#join {
+    color: white;
+    background-color: var(--dark2);
+    border: 2px inset var(--light);
+}
+
+#join:hover {
+    background-color:red;
+}
+
+.member {
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--dark);
+    text-align: center;
+}
+
+.member a:hover {
+    text-decoration: underline;
+}
+
+.member:nth-child(odd) {
+    background-color: var(--accent);
+    border: 2px outset var(--accent);
+}
+
+.member:nth-child(even) {
+    background-color: var(--accent2);
+    border: 2px outset var(--accent2);
+}
+
+h1 {
+    font-variant: small-caps;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+ul, ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+#navbuttons {
+    display: flexbox;
+}
+
+.regbutton {
+    color: white;
+    font-style: italic;
+    background-color: var(--dark3);
+    border: 2px inset var(--light);
+}
+
+.regbutton:hover {
+    background-color: rgb(0, 255, 0);
+    color: black;
+}

@@ -1,0 +1,36 @@
+slug,name,url,desc,new,seizure
+member1,"Whiskers",https://example.com,Hello!,true,false
+member2,"Mittens",https://example.com,Test!!!,true,true
+member3,"Felix",https://example.com,Balls,false,true
+member4,"Luna",https://example.com,Balls,false,false
+member5,"Oliver",https://example.com,Meow!,true,false
+member6,"Max",https://example.com,Purrfect!,false,true
+member7,"Charlie",https://example.com,Pawsome!,true,true
+member8,"Simba",https://example.com,Whiskers,false,false
+member9,"Lucy",https://example.com,Meow-tastic!,true,true
+member10,"Bella",https://example.com,Purrrr!,false,false
+member11,"Leo",https://example.com,Cat-tastic!,true,true
+member12,"Milo",https://example.com,Meow-dorable!,false,false
+member13,"Lily",https://example.com,Feline Fun,true,true
+member14,"Sophie",https://example.com,Meow Madness,false,false
+member15,"Shadow",https://example.com,Paw-some Adventures,true,true
+member16,"Rocky",https://example.com,Feline Frenzy,false,false
+member17,"Tiger",https://example.com,Purr-fectly Cute,true,false
+member18,"Chloe",https://example.com,Whisker Wonderland,false,true
+member19,"Coco",https://example.com,Cat-tastic Dreams,true,false
+member20,"Oscar",https://example.com,Meow-gical Moments,false,true
+member21,"Mia",https://example.com,Furry Friends,true,true
+member22,"Smokey",https://example.com,Catnip Craze,false,false
+member23,"Loki",https://example.com,Purr-sonality Plus,true,true
+member24,"Molly",https://example.com,Whisker Whispers,false,true
+member25,"Jack",https://example.com,Adopt-a-Cat,true,false
+member26,"Ginger",https://example.com,Pawsitively Adorable,false,true
+member27,"Tigger",https://example.com,Meow-tastic Moments,true,false
+member28,"Sasha",https://example.com,Cat-naps Galore,false,false
+member29,"Buddy",https://example.com,Feline Fashionistas,true,true
+member30,"Misty",https://example.com,Purrfect Paws,false,true
+member31,"Toby",https://example.com,Meow-velous Escapades,true,false
+member32,"Daisy",https://example.com,Cat-titude Central,false,false
+member33,"Muffin",https://example.com,Whisker Wonders,true,true
+member34,"Casper",https://example.com,Paw-some Playtime,false,false
+member35,"Salem",https://example.com,Mysterious Whiskers,true,true

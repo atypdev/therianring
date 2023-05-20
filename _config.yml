@@ -1,0 +1,5 @@
+baseurl: 
+include:
+  - _redirects
+github_repo_url: https://github.com/lizard985/weirdring # e
+lorem: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente asperiores laudantium libero qui. Suscipit, tempora dicta sint reprehenderit reiciendis quos ullam ipsum praesentium numquam. Consectetur obcaecati quo numquam nam quisquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias excepturi cumque suscipit necessitatibus adipisci! Neque rem labore explicabo distinctio tempore et voluptatum beatae suscipit, qui quas numquam ipsam nam. Dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis expedita ducimus dolores minus maiores praesentium odio animi, beatae obcaecati omnis id sapiente. Possimus quibusdam quod aperiam. Suscipit enim nihil maiores."

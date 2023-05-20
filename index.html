@@ -1,0 +1,21 @@
+---
+title: Home
+layout: html
+---
+<h1>Welcome to Catnip Net!</h1>
+
+This is a<a class="underlined" href="https://en.wikipedia.org/wiki/Webring">webring</a>for<a class="underlined"
+    href="https://en.wikipedia.org/wiki/Therianthropy">therians</a>with cat or feline-adjacent theriotypes. <br> If you
+feel that you fulfill this criteria and want to join the webring, click the "join" button above to get your site added
+to the ring!
+<h2><i>Members:</i></h2>
+Check out<b>{{ site.data.members.size }}</b>other feline's sites!
+<div id="members">
+    <ul>
+        {% for member in site.data.members %}
+        <li class="member"><a href="{{member.url | xml_escape}}">{{ member.name | xml_escape | newline_to_br }}</a>
+            {% if member.new == "true" %}<img width="35px" style="position: absolute; transform: translate(+25px, 0);" src={{'static/img/new_yellow.gif' | relative_url}} />{% endif %}
+            {% if member.seizure == "true" %}<img width="20px" style="position: absolute;" src={{'static/img/caution.gif' | relative_url}} />{% endif %}
+            {% endfor %}
+    </ul>
+</div>

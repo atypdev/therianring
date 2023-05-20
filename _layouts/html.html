@@ -1,0 +1,47 @@
+---
+---
+<!DOCTYPE html>
+<html lang=en>
+<title>CatnipNet | {{page.title}}</title>
+<meta charset=utf-8>
+<link rel=stylesheet href={{'public/html.css' | relative_url }}>
+<main>
+    <div class="content-wrapper">
+        <div id="logo">
+            <a href={{ '/' | relative_url }}><img src={{'static/img/CatnipNet_logo.png' | relative_url}}></a>
+        </div>
+        <div id="directory">
+            You are here: {{ page.title }}
+        </div>
+        <br>
+        <div id="center">
+            <br>
+            <div id="navbuttons">
+                <a href="{{ 'member1/previous' | relative_url }}" class="regbutton">Back</a>
+                <a href={{'join' | relative_url}} id="join">Join the webring!</a>
+                <a href="{{ 'member1/next' | relative_url }}" class="regbutton">Next</a>
+            </div>
+            <br>
+            {% if page.title != "Home" %}
+                Take Me<a class="underlined" href={{ '/' | relative_url }}>Home</a><br>
+            {% endif %}
+            <br>
+            {{content}}
+        </div>
+        <div id="footer">
+            <nav>
+                <a href={{ '/' | relative_url }}>Index of Site</a> - <a href={{ site.github_repo_url }}>View on GitHub</a> - <a
+                    href={{ '' | relative_url }}></a>
+            </nav>
+            Version DEMO-0.0.1
+            <div class="links">
+                {% for image in site.static_files %}
+                    {% if image.path contains 'img/buttons' %}
+                        <a href={{ 'test' | relative_url }}><img style="size: 50px;" src={{ site.baseurl }}{{ image.path }}></a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <i>This website is best viewed at 800x600 resolution in Internet Explorer 5</i>
+        </div>
+    </div>
+</main>

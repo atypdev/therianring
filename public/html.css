@@ -1,0 +1,146 @@
+* {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+:root {
+    --light: #c98cdb;
+    --dark: #29222a;
+    --dark2: #573c5d;
+    --dark3: #8f4d9d;
+    --accent: #d47ab8;
+    --accent2: #a769b5;
+    --accent3: #ba70ca;
+    --accent4: #7670CA;
+    --hyper: #e8d4fa;
+    --gradient: linear-gradient(to bottom, var(--light), var(--dark3));
+    --gradient2: linear-gradient(to bottom, var(--dark3), var(--dark2));
+    --gradient3: linear-gradient(to top, var(--accent2), var(--accent3));
+}
+
+body {
+    background: var(--dark);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--dark);
+    padding-top: 0px;
+}
+
+#center {
+    width: 85vw;
+    background-color: var(--light);
+    margin: auto;
+    text-align: center;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    /*border-right: 2px outset var(--accent);
+    border-left: 2px outset var(--accent);
+    border-bottom: 2px outset var(--accent);*/
+}
+
+#logo {
+    margin: auto;
+    text-align: center;
+    background-color: var(--dark);
+    /*border-right: 2px outset var(--accent);
+    border-left: 2px outset var(--accent);
+    border-top: 2px outset var(--accent);*/
+    width: 85vw;
+}
+
+#directory {
+    text-align: center; 
+    color: var(--accent4);
+    font-weight: bold;
+}
+
+#footer {
+    width: 85vw;
+    background-color: var(--dark2);
+    color: var(--light);
+    margin: auto;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--hyper);
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+/* .member a:visited {
+    color: var(--dark);
+} */
+
+.member {
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    background: var(--gradient);
+    border: 2px solid var(--dark2);
+}
+
+.member:nth-child(odd) {
+    color: var(--accent2)
+}
+
+.member:nth-child(even) {
+    color: var(--accent3)
+}
+
+
+.member a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-variant: small-caps;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: var(--dark);
+}
+
+h2 {
+    color: var(--dark2);
+}
+
+ul, ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+#navbuttons {
+    display: flexbox;
+}
+
+.regbutton {
+    color: white;
+    font-style: italic;
+    background: var(--gradient3);
+    border: 1px solid var(--dark2);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 0.35em;
+}
+
+.regbutton:hover {
+    background-color: var(--dark2);
+    color: var(--dark);
+}
+
+#join {
+    color: white;
+    background: var(--gradient2);
+    border: 1px solid var(--light);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 0.65em;
+}
+
+#join:hover {
+    background: var(--accent3);
+    color: var(--dark);
+}
